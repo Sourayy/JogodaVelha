@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f7e3fa;
+}
+
+#game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #ccadee6b;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.buttonGame {
+    background-color: #e9b4da;
+    margin: 15px;
+    border: 0px;
+    height: 110px;
+    width: 110px;
+    color: #e9568b;
+    border-radius: 10px;
+    font-size: 23px;
+}
+
+#status {
+    font-size: 30px;
+}
+
+h2 {
+    margin: 0;
+}
